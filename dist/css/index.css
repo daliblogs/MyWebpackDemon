@@ -1,0 +1,19 @@
+body {
+  background-color: red;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+#tupian {
+  background-image: url(../images/images/header.70c943c1.jpg);
+  width: 466px;
+  height: 453px;
+}
+
+#tupian::after {
+  content: "";
+}
